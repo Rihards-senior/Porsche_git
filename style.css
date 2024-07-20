@@ -1,0 +1,77 @@
+@font-face{
+	font-family: "Cormorant Infant";
+	src: url("fonts/CormorantInfant-Light.ttf");
+	font-weight: 300;
+}
+@font-face{
+	font-family: "Cormorant Infant";
+	src: url("fonts/CormorantInfant-Regular.ttf");
+	font-weight: 400;
+}
+@font-face{
+	font-family: "Cormorant Infant";
+	src: url("fonts/CormorantInfant-Medium.ttf");
+	font-weight: 500;
+}
+@font-face{
+	font-family: "Cormorant Infant";
+	src: url("fonts/CormorantInfant-SemiBold.ttf");
+	font-weight: 700;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Cormorant Infant", serif;
+}
+html{
+	font-size: 25px;
+	font-weight: 400;
+}
+h1{
+	font-size: 8rem;
+	line-height: 8rem;
+	font-weight: 300;
+}
+h2{
+	font-size: 2rem;
+	line-height: 2rem;
+	font-weight: 400;
+}
+h3{
+	font-size: 2rem;
+	line-height: 2rem;
+	font-weight: 400;
+}
+
+.header-container{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+}
+.header-video{
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.header-content-curtain-top{
+	width: 100%;
+	height: 50%;
+	background-color: white;
+	z-index: 2;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.header-content-curtain-bottom{
+	width: 100%;
+	height: 50%;
+	background-color: white;
+	z-index: 2;
+	position: absolute;
+	top: 50%;
+	left: 0;
+}
